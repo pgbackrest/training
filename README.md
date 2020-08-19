@@ -1,4 +1,4 @@
-__IMPORTANT NOTE__: It it no longer possible to build the documentation due to various changes over time in the yum repository, Docker, and pgBackRest. The [backup-training.html](https://github.com/pgbackrest/training/blob/master/backup-training.html) file in this repo is the output of a prior, successful build.
+__IMPORTANT NOTE__: It is no longer possible to build the documentation due to various changes over time in the yum repository, Docker, and pgBackRest. The [backup-training.html](https://github.com/pgbackrest/training/blob/master/backup-training.html) file in this repo is the output of a prior, successful build.
 
 ---
 
