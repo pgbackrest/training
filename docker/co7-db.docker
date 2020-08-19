@@ -2,7 +2,9 @@
 FROM training/co7-base
 
 # Install PostgreSQL 9.6
-RUN rpm -ivh http://yum.postgresql.org/9.6/redhat/rhel-7-x86_64/pgdg-centos96-9.6-3.noarch.rpm && \
+RUN rpm --import http://yum.postgresql.org/RPM-GPG-KEY-PGDG-10 && \
+    rpm -ivh https://download.postgresql.org/pub/repos/yum/11/redhat/rhel-6-x86_64/pgdg-redhat-repo-latest.noarch.rpm && \
+    yum -y install epel-release && \
     yum -y install postgresql96-server
 
 # Install pgBackRest
